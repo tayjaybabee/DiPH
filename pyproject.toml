@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "diph"
+version = "0.1.0"
+description = "A 'Discord Python Helper' bot"
+authors = ["Taylor Blackstone <t.blackstone@inspyre.tech>"]
+license = "WTFPL"
+packages = [
+    { include = "diph.diph" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.3"
+requests = "^2.24.0"
+inspy-logger = "2.0.0a6"
+pypattyrn = "^1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.2"
+poetry = "^1.0.10"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

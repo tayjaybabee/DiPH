@@ -1,0 +1,6 @@
+poetry
+twine
+inspy_logger=="2.0.0a36"
+inspyred_print
+discord
+python-dotenv
